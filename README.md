@@ -1,59 +1,104 @@
-# Nest1
+# StayNest – Resort & Homestay Booking Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.
+## Overview
 
-## Development server
+StayNest is a responsive web application developed using Angular and Bootstrap. The website showcases resorts and homestays through a clean and user-friendly interface. Users can explore accommodation information, featured stays, and contact details through multiple pages.
 
-To start a local development server, run:
+This project was created as a learning project to understand Angular fundamentals such as components, routing, data binding, and responsive UI design.
+
+## Features
+
+* Responsive Navigation Bar
+* Home Page with Carousel and Accordion
+* About Page with resort information and feature cards
+* Product Page showcasing a featured stay
+* Contact Page with inquiry form
+* Reusable Angular Components
+* Responsive design using Bootstrap
+
+## Technologies Used
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+* Bootstrap 5
+
+## Project Structure
+
+### Pages
+
+* Home
+* About
+* Product
+* Contact
+
+### Components
+
+* Navbar
+* Carousel
+* Accordion
+* Card
+* Product Card
+* Form
+
+## Learning Objectives
+
+This project was developed to practice:
+
+* Angular Components
+* Angular Routing
+* Property Binding
+* Component Reusability
+* Bootstrap Integration
+* Responsive Web Design
+
+## Project Scope
+
+This is a beginner-level Angular project created for learning purposes. Only basic functionalities have been implemented to understand Angular concepts and project structure.
+
+Examples:
+
+* A single featured stay card is displayed on the Product page.
+* Static content is used instead of a backend database.
+* The contact form is for UI demonstration purposes only.
+* Authentication, booking, and payment features are not implemented.
+
+## Running the Project
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Aqsa2005/ResortBooking-angular.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open your browser and navigate to:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+http://localhost:4200/
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Future Enhancements
 
-```bash
-ng generate --help
-```
+* User Authentication
+* Online Booking System
+* Database Integration
+* Payment Gateway Integration
+* Search and Filter Functionality
+* Customer Reviews and Ratings
 
-## Building
+## Conclusion
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+StayNest served as a practical project for learning Angular and building a responsive web application. While the current version focuses on basic concepts, it provides a strong foundation for developing more advanced Angular applications in the future.

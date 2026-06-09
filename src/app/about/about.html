@@ -1,0 +1,39 @@
+<div class="container text-center">
+  <div class="row my-4">
+    <div class="col">
+      <img src="gpt.jpg" alt="...">
+    </div>
+    <div class="col">
+    <h2 class="about-title">About StayNest</h2>
+
+      <p class="about-text">
+        StayNest is a modern resort and homestay booking platform that
+        helps travelers discover comfortable and memorable stays in
+        beautiful destinations. From peaceful hill retreats to scenic
+        lakeside cottages, we connect guests with accommodations that
+        offer relaxation, comfort, and exceptional hospitality.
+      </p>
+
+      <p class="about-text">
+        Our mission is to make every journey special by providing
+        carefully selected stays surrounded by nature and modern
+        amenities. Whether you're planning a family vacation or a
+        weekend getaway, StayNest is here to help you find the perfect
+        place to stay.
+      </p>    </div>
+  </div>
+</div>
+<h2 class="section-title text-center my-5">
+  Why Choose StayNest?
+</h2>
+<div class="container text-center">
+  <div class="row">
+    @for (item of cardData; track item.id) {
+  <div class="col">
+      <app-card [data]="item"></app-card>
+    </div>
+} @empty {
+  <li>There are no items.</li>
+}
+  </div>
+</div>

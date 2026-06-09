@@ -1,0 +1,35 @@
+.welcome-content {
+    padding: 20px;
+}
+
+.welcome-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f4d3a;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.welcome-content h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #28a745;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.welcome-content .intro {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #4f6f52;
+    margin-bottom: 15px;
+}
+
+.welcome-content p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: #555;
+    text-align: justify;
+}
